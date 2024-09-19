@@ -1,0 +1,167 @@
+/* Estilos gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fce4ec; /* Tom de rosa claro */
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Section Styling */
+.section {
+  background-color: #fff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #ff4081; /* Rosa vibrante */
+  font-weight: 600;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* Estilos do botão */
+.btn {
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+  background-color: #ff4081; /* Rosa vibrante */
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e91e63; /* Rosa mais escuro */
+}
+
+.btn-secondary {
+  background-color: #f06292; /* Tom de rosa médio */
+  color: white;
+  border: none;
+  margin-top: 20px;
+}
+
+.btn-secondary:hover {
+  background-color: #ec407a; /* Tom de rosa vibrante */
+}
+
+#A {
+  background-color: #f48fb1; /* Tom de rosa suave */
+}
+
+#B {
+  margin-top: 0px;
+  background-color: #fce4ec; /* Rosa pastel claro */
+}
+
+/* Form Container */
+.form-container {
+  background-color: #fff;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.6s ease;
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Estilo do Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #d81b60; /* Rosa escuro */
+}
+
+form input,
+form select {
+  padding: 12px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid #f06292; /* Tom de rosa médio */
+  transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #ff4081; /* Rosa vibrante */
+}
+
+/* Header */
+.header {
+  padding: 10px;
+  border: 1px transparent;
+  border-radius: 20px;
+  background-color: #282c34;
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 0px;
+  background-image: url('https://64.media.tumblr.com/0f6574f320975c1011a8c73c3afb1e66/71b446efbc14820f-1c/s2048x3072/fb9240611afdff7decf3ce26817184bc050554c6.pnj');
+  background-size: 180px 95px;
+  background-repeat: no-repeat;
+ 
+}
+
+.header-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(90deg, rgb(222, 128, 216) 0%, rgba(252,70,107,1) 100%);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-title:hover {
+  letter-spacing: 5px;
+  transition: letter-spacing 0.3s ease;
+}
+
